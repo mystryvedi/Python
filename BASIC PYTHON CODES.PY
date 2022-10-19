@@ -22,3 +22,9 @@ while i<=n:
     sum=sum+i
     i=i+2
 print(sum)
+
+# PRINT NUMBERS TILL 10
+i=0
+while i<11:
+    print(i)
+    i=i+1
