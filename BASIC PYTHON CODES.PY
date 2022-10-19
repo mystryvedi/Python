@@ -17,7 +17,7 @@ if a==0:
 
 i=2
 sum=0
-n = int(input())
+n = int(input("Enter the number you want to check : "))
 while i<=n:
     sum=sum+i
     i=i+2
