@@ -13,4 +13,12 @@ if a<0:
 if a==0:
     print("Zero")
     
-    
+# PRINT SUM OF ALL EVEN NUMBERS TILL N
+
+i=2
+sum=0
+n = int(input())
+while i<=n:
+    sum=sum+i
+    i=i+2
+print(sum)
