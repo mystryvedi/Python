@@ -43,4 +43,6 @@ for i in range(S,E+1,W):
     print(S," ",int(C))
     S=S+W
    
+
+
 #
