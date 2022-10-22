@@ -44,4 +44,4 @@ for i in range(S,E+1,W):
     S=S+W
    
 
-#
+# How to check
