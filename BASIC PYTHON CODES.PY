@@ -45,3 +45,4 @@ for i in range(S,E+1,W):
    
 
 # How to check if a number is even number or odd number
+
