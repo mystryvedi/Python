@@ -48,4 +48,4 @@ for i in range(S,E+1,W):
 
 n = int(input("Enter the number"))
 if n/2==0:
-    print
+    print("
