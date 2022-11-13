@@ -53,4 +53,4 @@ else:
     print("Odd number")
 
     
-# Check weather you are eligible to 
+# Check weather you are eligible to vote or not
