@@ -56,4 +56,5 @@ else:
 # Check weather you are eligible to vote or not
 
 age = int(input("Enter your age : "))
-
+if age>=18:
+    
