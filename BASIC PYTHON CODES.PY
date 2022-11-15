@@ -53,7 +53,7 @@ else:
     print("Odd number")
 
     
-# Check wehther you are eligible to vote or not
+# Check whether you are eligible to vote or not
 
 age = int(input("Enter your age : "))
 if age>=18:
