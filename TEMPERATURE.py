@@ -9,5 +9,3 @@ for i in range(S,E+1,W):
     C = ((S-32)*5)/9
     print(S," ",int(C))
     S=S+W
-
-    
