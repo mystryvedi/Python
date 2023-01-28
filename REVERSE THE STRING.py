@@ -13,4 +13,3 @@ print(s)
   
 print("The reversed string(using loops) is : ", end="")
 print(reverse(s))
-
