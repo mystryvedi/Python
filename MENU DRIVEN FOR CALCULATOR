@@ -35,3 +35,7 @@ while True:
     if i == 5:
         print("Program Ended")
         break
+
+    if i not in [1, 2, 3, 4]:
+        print("Invalid input")
+        continue
