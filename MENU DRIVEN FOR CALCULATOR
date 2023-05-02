@@ -29,3 +29,9 @@ while True:
     print("3. MULTIPLICATION")
     print("4. DIVISION")
     print("5. EXIT")
+
+    i = int(input("Enter the operation number : "))
+
+    if i == 5:
+        print("Program Ended")
+        break
