@@ -42,3 +42,5 @@ while True:
 
     if i == 1:
         add()
+    elif i == 2:
+        subt()
