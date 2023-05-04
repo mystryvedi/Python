@@ -46,3 +46,5 @@ while True:
         subt()
     elif i == 3:
         mul()
+    else:
+        div()
