@@ -44,3 +44,5 @@ while True:
         add()
     elif i == 2:
         subt()
+    elif i == 3:
+        mul()
