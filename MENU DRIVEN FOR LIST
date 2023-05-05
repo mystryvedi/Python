@@ -5,3 +5,5 @@ def insert():
     while count < n:
         a = input("Enter the element : ")
         ls.append(a)
+        count += 1
+
