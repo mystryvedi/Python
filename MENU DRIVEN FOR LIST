@@ -6,4 +6,6 @@ def insert():
         a = input("Enter the element : ")
         ls.append(a)
         count += 1
+def delete():
+    a = input("Enter the element to be deleted : ")
 
