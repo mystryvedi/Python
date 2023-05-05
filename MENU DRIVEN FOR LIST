@@ -1,3 +1,7 @@
 ls = []
 def insert():
     count = 0
+    n = int(input("Enter the number of elements you want to enter : "))
+    while count < n:
+        a = input("Enter the element : ")
+        ls.append(a)
