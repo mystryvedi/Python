@@ -1,1 +1,3 @@
-
+ls = []
+def insert():
+    count = 0
