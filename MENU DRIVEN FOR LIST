@@ -8,3 +8,6 @@ def insert():
         count += 1
 def delete():
     a = input("Enter the element to be deleted : ")
+
+def display():
+    print(ls)
