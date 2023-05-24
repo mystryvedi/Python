@@ -1,7 +1,6 @@
 # BASIC PROGRAM TO PRINT HELLO WORLD
 
-print("hello world")
-
+print("hello world"
 # OUTPUT -> hello world
 
 # CHECK IF A NUMBER IS POSITIVE OR NEGATIVE OR ZERO
