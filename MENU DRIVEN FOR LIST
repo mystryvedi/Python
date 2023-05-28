@@ -16,3 +16,7 @@ def display():
 
 def rev():
 
+while True:
+    print("MAIN MENU")
+    print("1. INSERT A NUMBER IN THE LIST")
+    print("2. DELETE A NUMBER IN THE LIST")
