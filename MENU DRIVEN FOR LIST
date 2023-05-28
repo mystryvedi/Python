@@ -26,3 +26,6 @@ while True:
 
     i = int(input("Enter the operation number : "))
 
+    if i == 4:
+        print("Program Ended")
+        break
