@@ -23,3 +23,6 @@ while True:
     print("3. REVERSE THE LIST")
     print("4. DISPLAY THE LIST")
     print("5. EXIT")
+
+    i = int(input("Enter the operation number : "))
+
