@@ -13,7 +13,6 @@ def delete():
 def display():
     print(ls)
 
-
 def rev():
 
 while True:
