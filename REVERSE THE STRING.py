@@ -1,4 +1,8 @@
 # To reverse the string provided by the user
+
+
+
+
 def reverse(s):
     str = ""
     for i in s:
