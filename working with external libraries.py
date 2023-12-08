@@ -15,3 +15,8 @@ def fetch_data_from_api(api_url):
             print("Data from the API:")
             print(data)
         else:
+            print(f"Error: Unable to fetch data. Status code: {response.status_code}")
+    except requests.RequestException as e:
+        print(f"Error: {e}")
+
+# Example: Using a public JSONPlaceholder API
