@@ -20,3 +20,7 @@ def fetch_data_from_api(api_url):
         print(f"Error: {e}")
 
 # Example: Using a public JSONPlaceholder API
+api_url = "https://jsonplaceholder.typicode.com/todos/1"
+
+# Fetch and display data from the API
+fetch_data_from_api(api_url)
