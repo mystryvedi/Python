@@ -17,3 +17,6 @@ def calculate_future_date(days):
 
 # Display the current date and time
 display_current_datetime()
+
+# Calculate and display the future date after 7 days
+calculate_future_date(7)
