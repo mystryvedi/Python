@@ -6,3 +6,5 @@ from bs4 import BeautifulSoup
 # Function to scrape information from a webpage
 def scrape_webpage(url):
     try:
+        # Make a GET request to the webpage
+        response = requests.get(url)
