@@ -16,3 +16,6 @@ def scrape_webpage(url):
             # Extract and print the title of the webpage
             title = soup.title.string
             print(f"Title: {title}")
+            # Extract and print some information (change as per the webpage structure)
+            sample_info = soup.find('p', class_='sample-class').get_text()
+            print(f"Sample Information: {sample_info}")
