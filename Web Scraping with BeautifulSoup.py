@@ -8,3 +8,8 @@ def scrape_webpage(url):
     try:
         # Make a GET request to the webpage
         response = requests.get(url)
+        
+        # Check if the request was successful (status code 200)
+        if response.status_code == 200:
+            # Parse the HTML content of the webpage
+            soup = BeautifulSoup(response.text, 'html.parser')
