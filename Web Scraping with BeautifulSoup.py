@@ -13,3 +13,6 @@ def scrape_webpage(url):
         if response.status_code == 200:
             # Parse the HTML content of the webpage
             soup = BeautifulSoup(response.text, 'html.parser')
+            # Extract and print the title of the webpage
+            title = soup.title.string
+            print(f"Title: {title}")
