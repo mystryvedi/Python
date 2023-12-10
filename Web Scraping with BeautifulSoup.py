@@ -19,3 +19,5 @@ def scrape_webpage(url):
             # Extract and print some information (change as per the webpage structure)
             sample_info = soup.find('p', class_='sample-class').get_text()
             print(f"Sample Information: {sample_info}")
+    else:
+            print(f"Error: Unable to fetch data. Status code: {response.status_code}")
