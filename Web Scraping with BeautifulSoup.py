@@ -21,3 +21,5 @@ def scrape_webpage(url):
             print(f"Sample Information: {sample_info}")
         else:
             print(f"Error: Unable to fetch data. Status code: {response.status_code}")
+    except requests.RequestException as e:
+        print(f"Error: {e}")
