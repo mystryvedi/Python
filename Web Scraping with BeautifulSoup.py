@@ -23,3 +23,7 @@ def scrape_webpage(url):
             print(f"Error: Unable to fetch data. Status code: {response.status_code}")
     except requests.RequestException as e:
         print(f"Error: {e}")
+
+# Example: Using a sample webpage
+webpage_url = "https://example.com"
+scrape_webpage(webpage_url)
