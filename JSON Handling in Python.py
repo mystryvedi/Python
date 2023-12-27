@@ -11,3 +11,10 @@ def encode_to_json(data):
 def decode_json(json_data):
     decoded_data = json.loads(json_data)
     return decoded_data
+
+# Example: Encoding and decoding a dictionary
+sample_data = {
+    "name": "Anna",
+    "age": 30,
+    "city": "Noida"
+}
