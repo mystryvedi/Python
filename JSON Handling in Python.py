@@ -23,3 +23,8 @@ sample_data = {
 encoded_json = encode_to_json(sample_data)
 print("Encoded JSON:")
 print(encoded_json)
+
+# Decode the JSON data back to a Python dictionary
+decoded_data = decode_json(encoded_json)
+print("\nDecoded Data:")
+print(decoded_data)
