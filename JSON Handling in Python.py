@@ -18,3 +18,8 @@ sample_data = {
     "age": 30,
     "city": "Noida"
 }
+
+# Encode the dictionary to JSON format
+encoded_json = encode_to_json(sample_data)
+print("Encoded JSON:")
+print(encoded_json)
