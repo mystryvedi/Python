@@ -6,3 +6,8 @@ import json
 def encode_to_json(data):
     json_data = json.dumps(data, indent=2)
     return json_data
+
+# Function to decode (deserialize) JSON data to Python objects
+def decode_json(json_data):
+    decoded_data = json.loads(json_data)
+    return decoded_data
